@@ -20,12 +20,12 @@ class Controller:UITableViewController
         //The path is essentially a String
         let path = Bundle.main.path(forResource: "something", ofType: "txt")
         //remove the ! will give the path a Optional() wrap
-        print(path!)
+        //print(path!)
         
         //Using file manager to check if the file exist. This can be skipped...
         let manager = FileManager.default
         
-        if(manager.fileExists(atPath: path!))
+        if((path != nil) && manager.fileExists(atPath: path!))
         {
             do
             {
