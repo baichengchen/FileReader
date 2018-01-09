@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F13EDFE2004AC8D000B1F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13EDFD2004AC8D000B1F3E /* AppDelegate.swift */; };
+		5F13EE032004AC8D000B1F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F13EE012004AC8D000B1F3E /* Main.storyboard */; };
+		5F13EE052004AC8D000B1F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F13EE042004AC8D000B1F3E /* Assets.xcassets */; };
+		5F13EE082004AC8D000B1F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F13EE062004AC8D000B1F3E /* LaunchScreen.storyboard */; };
+		5F13EE132004AC8D000B1F3E /* FileReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13EE122004AC8D000B1F3E /* FileReaderTests.swift */; };
+		5F13EE1E2004AC8D000B1F3E /* FileReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13EE1D2004AC8D000B1F3E /* FileReaderUITests.swift */; };
+		5F13EE2C2004ACD9000B1F3E /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13EE2B2004ACD9000B1F3E /* Controller.swift */; };
+		5F13EE332004B174000B1F3E /* something.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F13EE322004B174000B1F3E /* something.txt */; };
+		5F13EE352004B309000B1F3E /* ControllerForCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13EE342004B309000B1F3E /* ControllerForCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F13EE0F2004AC8D000B1F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F13EDF22004AC8D000B1F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F13EDF92004AC8D000B1F3E;
+			remoteInfo = FileReader;
+		};
+		5F13EE1A2004AC8D000B1F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F13EDF22004AC8D000B1F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F13EDF92004AC8D000B1F3E;
+			remoteInfo = FileReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F13EDFA2004AC8D000B1F3E /* FileReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13EDFD2004AC8D000B1F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F13EE022004AC8D000B1F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F13EE042004AC8D000B1F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F13EE072004AC8D000B1F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F13EE092004AC8D000B1F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F13EE0E2004AC8D000B1F3E /* FileReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13EE122004AC8D000B1F3E /* FileReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderTests.swift; sourceTree = "<group>"; };
+		5F13EE142004AC8D000B1F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F13EE192004AC8D000B1F3E /* FileReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13EE1D2004AC8D000B1F3E /* FileReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReaderUITests.swift; sourceTree = "<group>"; };
+		5F13EE1F2004AC8D000B1F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F13EE2B2004ACD9000B1F3E /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		5F13EE322004B174000B1F3E /* something.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = something.txt; sourceTree = "<group>"; };
+		5F13EE342004B309000B1F3E /* ControllerForCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerForCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F13EDF72004AC8D000B1F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13EE0B2004AC8D000B1F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13EE162004AC8D000B1F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F13EDF12004AC8D000B1F3E = {
+			isa = PBXGroup;
+			children = (
+				5F13EDFC2004AC8D000B1F3E /* FileReader */,
+				5F13EE112004AC8D000B1F3E /* FileReaderTests */,
+				5F13EE1C2004AC8D000B1F3E /* FileReaderUITests */,
+				5F13EDFB2004AC8D000B1F3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F13EDFB2004AC8D000B1F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F13EDFA2004AC8D000B1F3E /* FileReader.app */,
+				5F13EE0E2004AC8D000B1F3E /* FileReaderTests.xctest */,
+				5F13EE192004AC8D000B1F3E /* FileReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F13EDFC2004AC8D000B1F3E /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				5F13EE322004B174000B1F3E /* something.txt */,
+				5F13EDFD2004AC8D000B1F3E /* AppDelegate.swift */,
+				5F13EE2B2004ACD9000B1F3E /* Controller.swift */,
+				5F13EE342004B309000B1F3E /* ControllerForCell.swift */,
+				5F13EE012004AC8D000B1F3E /* Main.storyboard */,
+				5F13EE042004AC8D000B1F3E /* Assets.xcassets */,
+				5F13EE062004AC8D000B1F3E /* LaunchScreen.storyboard */,
+				5F13EE092004AC8D000B1F3E /* Info.plist */,
+			);
+			path = FileReader;
+			sourceTree = "<group>";
+		};
+		5F13EE112004AC8D000B1F3E /* FileReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F13EE122004AC8D000B1F3E /* FileReaderTests.swift */,
+				5F13EE142004AC8D000B1F3E /* Info.plist */,
+			);
+			path = FileReaderTests;
+			sourceTree = "<group>";
+		};
+		5F13EE1C2004AC8D000B1F3E /* FileReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F13EE1D2004AC8D000B1F3E /* FileReaderUITests.swift */,
+				5F13EE1F2004AC8D000B1F3E /* Info.plist */,
+			);
+			path = FileReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F13EDF92004AC8D000B1F3E /* FileReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F13EE222004AC8D000B1F3E /* Build configuration list for PBXNativeTarget "FileReader" */;
+			buildPhases = (
+				5F13EDF62004AC8D000B1F3E /* Sources */,
+				5F13EDF72004AC8D000B1F3E /* Frameworks */,
+				5F13EDF82004AC8D000B1F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileReader;
+			productName = FileReader;
+			productReference = 5F13EDFA2004AC8D000B1F3E /* FileReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F13EE0D2004AC8D000B1F3E /* FileReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F13EE252004AC8D000B1F3E /* Build configuration list for PBXNativeTarget "FileReaderTests" */;
+			buildPhases = (
+				5F13EE0A2004AC8D000B1F3E /* Sources */,
+				5F13EE0B2004AC8D000B1F3E /* Frameworks */,
+				5F13EE0C2004AC8D000B1F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F13EE102004AC8D000B1F3E /* PBXTargetDependency */,
+			);
+			name = FileReaderTests;
+			productName = FileReaderTests;
+			productReference = 5F13EE0E2004AC8D000B1F3E /* FileReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F13EE182004AC8D000B1F3E /* FileReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F13EE282004AC8D000B1F3E /* Build configuration list for PBXNativeTarget "FileReaderUITests" */;
+			buildPhases = (
+				5F13EE152004AC8D000B1F3E /* Sources */,
+				5F13EE162004AC8D000B1F3E /* Frameworks */,
+				5F13EE172004AC8D000B1F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F13EE1B2004AC8D000B1F3E /* PBXTargetDependency */,
+			);
+			name = FileReaderUITests;
+			productName = FileReaderUITests;
+			productReference = 5F13EE192004AC8D000B1F3E /* FileReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F13EDF22004AC8D000B1F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Baicheng Chen";
+				TargetAttributes = {
+					5F13EDF92004AC8D000B1F3E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5F13EE0D2004AC8D000B1F3E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F13EDF92004AC8D000B1F3E;
+					};
+					5F13EE182004AC8D000B1F3E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F13EDF92004AC8D000B1F3E;
+					};
+				};
+			};
+			buildConfigurationList = 5F13EDF52004AC8D000B1F3E /* Build configuration list for PBXProject "FileReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F13EDF12004AC8D000B1F3E;
+			productRefGroup = 5F13EDFB2004AC8D000B1F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F13EDF92004AC8D000B1F3E /* FileReader */,
+				5F13EE0D2004AC8D000B1F3E /* FileReaderTests */,
+				5F13EE182004AC8D000B1F3E /* FileReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F13EDF82004AC8D000B1F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13EE082004AC8D000B1F3E /* LaunchScreen.storyboard in Resources */,
+				5F13EE332004B174000B1F3E /* something.txt in Resources */,
+				5F13EE052004AC8D000B1F3E /* Assets.xcassets in Resources */,
+				5F13EE032004AC8D000B1F3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13EE0C2004AC8D000B1F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13EE172004AC8D000B1F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F13EDF62004AC8D000B1F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13EDFE2004AC8D000B1F3E /* AppDelegate.swift in Sources */,
+				5F13EE352004B309000B1F3E /* ControllerForCell.swift in Sources */,
+				5F13EE2C2004ACD9000B1F3E /* Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13EE0A2004AC8D000B1F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13EE132004AC8D000B1F3E /* FileReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F13EE152004AC8D000B1F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F13EE1E2004AC8D000B1F3E /* FileReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F13EE102004AC8D000B1F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F13EDF92004AC8D000B1F3E /* FileReader */;
+			targetProxy = 5F13EE0F2004AC8D000B1F3E /* PBXContainerItemProxy */;
+		};
+		5F13EE1B2004AC8D000B1F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F13EDF92004AC8D000B1F3E /* FileReader */;
+			targetProxy = 5F13EE1A2004AC8D000B1F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F13EE012004AC8D000B1F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F13EE022004AC8D000B1F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F13EE062004AC8D000B1F3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F13EE072004AC8D000B1F3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F13EE202004AC8D000B1F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F13EE212004AC8D000B1F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F13EE232004AC8D000B1F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8ZNSX6Y5B;
+				INFOPLIST_FILE = FileReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baicheng.FileReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F13EE242004AC8D000B1F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8ZNSX6Y5B;
+				INFOPLIST_FILE = FileReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baicheng.FileReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F13EE262004AC8D000B1F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8ZNSX6Y5B;
+				INFOPLIST_FILE = FileReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baicheng.FileReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileReader.app/FileReader";
+			};
+			name = Debug;
+		};
+		5F13EE272004AC8D000B1F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8ZNSX6Y5B;
+				INFOPLIST_FILE = FileReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baicheng.FileReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileReader.app/FileReader";
+			};
+			name = Release;
+		};
+		5F13EE292004AC8D000B1F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8ZNSX6Y5B;
+				INFOPLIST_FILE = FileReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baicheng.FileReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FileReader;
+			};
+			name = Debug;
+		};
+		5F13EE2A2004AC8D000B1F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8ZNSX6Y5B;
+				INFOPLIST_FILE = FileReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baicheng.FileReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FileReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F13EDF52004AC8D000B1F3E /* Build configuration list for PBXProject "FileReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F13EE202004AC8D000B1F3E /* Debug */,
+				5F13EE212004AC8D000B1F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F13EE222004AC8D000B1F3E /* Build configuration list for PBXNativeTarget "FileReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F13EE232004AC8D000B1F3E /* Debug */,
+				5F13EE242004AC8D000B1F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F13EE252004AC8D000B1F3E /* Build configuration list for PBXNativeTarget "FileReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F13EE262004AC8D000B1F3E /* Debug */,
+				5F13EE272004AC8D000B1F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F13EE282004AC8D000B1F3E /* Build configuration list for PBXNativeTarget "FileReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F13EE292004AC8D000B1F3E /* Debug */,
+				5F13EE2A2004AC8D000B1F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F13EDF22004AC8D000B1F3E /* Project object */;
+}
